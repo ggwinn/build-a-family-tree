@@ -38,6 +38,10 @@ body{
 
 button{
   background-color: lightblue;
+  background-image: url('Letter-1.png');
+  background-size: cover;
+  border-radius: 35px;
+  padding: 17px 16px;
 }
 
 .modal-container {
