@@ -1,5 +1,5 @@
 
-#background {
+/*#background {
   background-image: url(dollhouse.jpg);
   height: 115vh;
   width: 100%;
@@ -10,7 +10,7 @@
   top: 0;
   z-index: -2;
 }
-
+*/
 * {
   box-sizing:border-box;
 }
@@ -52,5 +52,5 @@ button{
 }
 
 .modal{
-  background-color: #edeef6;
+  background-color: lightblue;
 }
