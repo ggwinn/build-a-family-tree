@@ -24,4 +24,3 @@ window.onclick = (event) => {
     overlay.classList.remove("active");
   }
 };
-container.modal1("show");
