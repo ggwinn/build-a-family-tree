@@ -13,13 +13,13 @@ body {
 
 #background {
   background-image: url(dollhouse.jpg);
-  height: 100vh;
+  height: 130vh;
   width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: fixed;
-  top: 50;
+  top: 0;
   z-index: -1;
 }
 
