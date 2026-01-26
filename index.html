@@ -3,27 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all"/>
+  </head>
+
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal</title>
   </head>
   <body>
-    <!-- keeps the background behind the button-->
-    <!--<div id="background"></div>-->
-    
-    <!-- modal number one with css -->
-      <button id="open" >Click~~Me!</button>
+    <div class="container">
+      <button class="btn" data-target="#modal1">Open Modal</button>
+      <button class="btn" data-target="#modal2">Open Modal 2</button>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, impedit
+        ex? Neque in animi explicabo magni tempora. Autem voluptatum blanditiis
+        reiciendis fuga obcaecati. Saepe quibusdam corporis consequuntur iste
+        omnis natus?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+        debitis molestias placeat dignissimos facilis voluptatibus eaque autem,
+        ipsam ratione explicabo, deserunt ea aspernatur et quasi voluptatum
+        dolor, labore harum! Rem nulla, architecto ab dicta omnis error nesciunt
+        qui explicabo a maxime similique placeat autem tempora temporibus
+        obcaecati repellendus, earum ad.
+      </p>
+    </div>
 
-    <!-- modal content -->
-    <div class="modal-container" id="modal-container">
-    <div class="modal">
-        <h1> Prompt One </h1>
-        <p> Whether it is a letter, a screenshot, a Hinge (or other dating app) message, a text message, or a picture, include a screenshot of your ex-situationship or ex-lover who wasn’t your lover. Maybe until your reality becomes as blurry as this dynamic felt… After this dynamic, did you find a safer home for your nervous system, a safer relationship, or a safer way of being loved? </p>
-        <img id="myImage" src="promptOne.jpg" width="350" height="400">
-    <!-- close the modal -->
-        <!-- <button id="close"> Close Me! </button> -->
-       <div> <button class="btn close-modal">&times;</button></div>
+    <div class="modal" id="modal1">
+      <div class="header">
+        <div class="title">First Modal</div>
+        <button class="btn close-modal">&times;</button>
       </div>
+      <div class="body">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ea
+        officia consectetur. Laborum, dolor? Assumenda quo corrupti eveniet
+        velit fugit fugiat odit, dolorum labore obcaecati quia. Commodi
+        assumenda sed maxime!
       </div>
+    </div>
+    <div class="modal" id="modal2">
+      <div class="header">
+        <div class="title">Second Modal</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ea
+        officia consectetur. Laborum, dolor? Assumenda quo corrupti eveniet
+        velit fugit fugiat odit, dolorum labore obcaecati quia. Commodi
+        assumenda sed maxime!
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
     <script src="script.js"></script>
   </body>
 </html>
