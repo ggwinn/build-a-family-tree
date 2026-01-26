@@ -21,6 +21,7 @@ body{
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
   font-family: Verdana, Tahoma, sans-serif;
   display: flex;
   align-items: center;
