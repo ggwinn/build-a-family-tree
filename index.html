@@ -19,11 +19,23 @@
         }
     </style>
     <body>
-        <div class="container">
-                <img src="dollhouse.png"
-                class="container" id="dollhouse-container">Button<button>
-                </button>
+        <div class="button">
+                <img src="dollhouse.png" alt="build-a-bear workshop background with files position on the front of the box">
+                <button> Button </button>
                 </div>
+
+        <style>
+            .button-overlay {
+                position: relative;
+                display: inline-block;
+            }
+            .button-overlay button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50);
+            }
+        </style>
 
 
 </html>
