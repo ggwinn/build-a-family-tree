@@ -90,3 +90,8 @@ body {
 .modal .body {
   padding: 0.75rem;
 }
+
+#btn-1 {
+    top: 190px;
+    left: 570px;
+}
