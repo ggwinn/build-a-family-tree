@@ -5,6 +5,11 @@ body {
   align-items: center;
   height: 100vh;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
 #background {
   background-image: url(dollhouse.jpg);
@@ -12,6 +17,7 @@ body {
   width: 100%;
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   position: fixed;
   top: 0;
   z-index: -1;
