@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/*
 .button {
   background-image: url(Letter-1.png);
   background-size: cover;
@@ -12,4 +13,112 @@ body {
   display: flex;
   align-items: center;
 }
+*/
+
+*, *:before, *:after { 
+  box-sizing: border-box; 
+}
+
+.modal-container {
+  margin: 10px auto;
+  padding-top: -20px;
+  position: relative;
+  width: 160px;
+  height: 700px;    
+  .modal-btn {
+    display: block;
+    margin: 0 auto;      
+    color: black;
+    transform: scale(.4);
+    margin-left: -158px; 
+    margin-top: 140px;
+    width: 290px;
+    height: 150px;    
+    line-height: 50px;   
+    background-image: url(Letter-1.png);
+    font-size: 35px;
+    border: 0;
+    border-radius: 30px;  
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 5px 5px -5px #333;  
+    transition: background 0.3s ease-in;
+    &:hover { background: lightblue }
+    }
+    }
+  .modal-content, 
+  .modal-backdrop {
+    height: 0; 
+    width: 400px;
+    opacity: 0;    
+    visibility: hidden;
+    overflow: hidden; 
+    cursor: pointer;
+    transition: opacity 0.2s ease-in; 
+  }
+  .modal-close {
+    color: #aaa;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding-top: 3px;
+    background: lightblue;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    &:hover { color: #333; }        
+  }      
+  .modal-content-btn {
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    bottom: 20px;
+    right: 30px;
+    background: #446CB3;
+    color: #fff;
+    width: 50px;
+    border-radius: 2px;
+    font-size: 14px;
+    height: 32px;
+    padding-top: 9px;
+    font-weight: normal;
+    &:hover { color: #fff; background: darkblue; }
+  }
+  #modal-toggle {
+    display: none;  
+    &.active ~ .modal-backdrop,
+    &:checked ~ .modal-backdrop {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 9;
+      visibility: visible;
+      opacity: 1;      
+      transition: opacity 0.2s ease-in; 
+    }
+    &.active ~ .modal-content,
+    &:checked ~ .modal-content {
+      opacity: 1;
+      background-color: lightblue;
+      max-width: 700px;
+      width: 500px;
+      height: 600px;
+      padding: 10px 30px;
+      position: fixed;
+      left: calc(50% - 250px);
+      top: 12%;
+      border-radius: 4px;
+      z-index: 999;
+      pointer-events: auto;
+      cursor: auto;
+      visibility: visible;      
+      box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);  
+      @media (max-width: 400px) { left: 0; }                   
+    }  
+  }
+
 
