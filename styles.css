@@ -1,11 +1,6 @@
 
-* {
-  box-sizing:border-box;
-}
-
-body{
+#background {
   background-image: url(dollhouse.jpg);
-  font-family: Verdana, Tahoma, sans-serif;
   height: 115vh;
   width: 100%;
   background-size: cover;
@@ -14,6 +9,19 @@ body{
   position: fixed;
   top: 0;
   z-index: -2;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+body{
+  background-image: url(dollhouse.jpg);
+  height: 115vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Tahoma, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
