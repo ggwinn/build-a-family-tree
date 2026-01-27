@@ -127,27 +127,38 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 	font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 
+
 main {
 	text-align: center;
-	margin-top: 100px;
 }
+
 
 h1 {
 	margin-bottom: 16px;
 }
 
-.button {
-	display: inline-block;
+.button1 {
+	padding: 12px 16px;
+	background-color: lightblue;
+  /* background-image: url(Letter-1.png); */
+	color: rgb(29, 28, 28);
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: 500;
+}
+
+
+.button2 {
+  display: inline-block;
 	padding: 12px 16px;
 	background-color: lightblue;
 	color: rgb(29, 28, 28);
 	text-decoration: none;
-	margin: 0px 8px;
-	border-radius: 8px;
+  margin-top: 210px;
+	border-radius: 10px;
 	font-weight: 500;
 }
 
@@ -194,6 +205,12 @@ h1 {
 	pointer-events: all;
 }
 
+#popup1 {
+    text-align: center;
+}
+#popup2 {
+    text-align: center;
+}
 
 
 
