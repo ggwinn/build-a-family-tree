@@ -168,6 +168,20 @@ h1 {
 	font-weight: 500;
 }
 
+.button3 {
+  /* display: inline-block;*/
+  position: absolute;
+	padding: 12px 16px;
+	background-color: lightblue;
+	color: rgb(29, 28, 28);
+	text-decoration: none;
+  margin-top: 210px;
+  margin-left: 30px;
+	border-radius: 10px;
+	font-weight: 500;
+}
+
+
 .popup {
 	opacity: 0;
 	pointer-events: none;
