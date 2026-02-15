@@ -181,6 +181,32 @@ h1 {
 	font-weight: 500;
 }
 
+.button4 {
+  /* display: inline-block;*/
+  position: absolute;
+	padding: 12px 16px;
+	background-color: lightblue;
+	color: rgb(29, 28, 28);
+	text-decoration: none;
+  margin-top: 450px;
+  margin-left: -55px;
+	border-radius: 10px;
+	font-weight: 500;
+}
+
+.button5 {
+  /* display: inline-block;*/
+  position: absolute;
+	padding: 12px 16px;
+	background-color: lightblue;
+	color: rgb(29, 28, 28);
+	text-decoration: none;
+  margin-top: 536px;
+  margin-left: -175px;
+	border-radius: 10px;
+	font-weight: 500;
+}
+
 
 .popup {
 	opacity: 0;
