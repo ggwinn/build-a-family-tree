@@ -276,6 +276,21 @@ h1 {
 	font-weight: 500;
 }
 
+.button10 {
+  /* display: inline-block;*/
+  background-image: url('instructions.png');
+  background-size: cover;
+  background-color: rgb(29, 28, 28);
+  position: absolute;
+	padding: 12px 16px;
+	color: rgb(29, 28, 28);
+	text-decoration: none;
+  margin-top: 180px;
+  margin-left: -150px;
+	border-radius: 10px;
+	font-weight: 500;
+}
+
 
 
 
