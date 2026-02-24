@@ -129,6 +129,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 	font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 
@@ -349,7 +350,7 @@ h1 {
 
 .popup-inner p {
 	color: black;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 1.5;
 	margin-bottom: 16px;
 }
