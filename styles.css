@@ -1,7 +1,7 @@
 body {
   background-image: url(dollhouse.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 /*
@@ -255,8 +255,8 @@ h1 {
 	padding: 12px 16px;
 	color: rgb(29, 28, 28);
 	text-decoration: none;
-  margin-top: 529px;
-  margin-left: 64px;
+  margin-top: 524px;
+  margin-left: 62px;
 	border-radius: 10px;
 	font-weight: 500;
 }
@@ -270,7 +270,7 @@ h1 {
 	padding: 12px 16px;
 	color: rgb(29, 28, 28);
 	text-decoration: none;
-  margin-top: 556px;
+  margin-top: 550px;
   margin-left: -60px;
 	border-radius: 10px;
 	font-weight: 500;
