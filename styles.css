@@ -287,10 +287,10 @@ h1 {
 	padding: 100px 70px;
 	color: rgb(29, 28, 28);
 	text-decoration: none;
-  margin-top: 300x;
-  margin-left: -500x;
+  margin-top: 260px;
+  margin-left: 220px;
 	border-radius: 10px;
-	font-weight: 500;
+	font-weight: 100;
 }
 
 .button11 {
@@ -381,7 +381,6 @@ h1 {
 }
 #popup8 {
     text-align: center;
-    font-size: 25;
 }
 #popup9 {
     text-align: center;
